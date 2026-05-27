@@ -1,0 +1,198 @@
+// Exercise 1: Variable Declaration
+
+let name = "Nalo Appreciate Stali";
+let age = 18;
+let isStudent = true;
+
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Is Student:", isStudent);
+
+
+// Exercise 2: Variable Reassignment
+
+let favoriteColour = "Orange";
+
+console.log("Favorite Colour:", favoriteColour);
+
+favoriteColour = "Black";
+
+console.log("New Favorite Colour:", favoriteColour);
+
+
+// Exercise 3: Arithmetic Operations
+
+let num1 = 2;
+let num2 = 8;
+
+let sum = num1 + num2;
+let difference = num1 - num2;
+let product = num1 * num2;
+let quotient = num1 / num2;
+
+console.log("Sum:", sum);
+console.log("Difference:", difference);
+console.log("Product:", product);
+console.log("Quotient:", quotient);
+// Exercise 1: Numbers
+
+let integerNumber = 2;
+let floatNumber = 8.5;
+
+let addition = integerNumber + 8;
+let subtraction = integerNumber - 1;
+let multiplication = integerNumber * 8;
+let division = integerNumber / 2;
+let modulus = integerNumber % 2;
+let exponentiation = integerNumber ** 3;
+
+console.log("Integer:", integerNumber);
+console.log("Float:", floatNumber);
+console.log("Addition:", addition);
+console.log("Subtraction:", subtraction);
+console.log("Multiplication:", multiplication);
+console.log("Division:", division);
+console.log("Modulus:", modulus);
+console.log("Exponentiation:", exponentiation);
+
+
+// Exercise 2: Boolean and Operators
+
+let x = 8;
+let y = 12;
+
+console.log("x > y:", x > y);
+console.log("x <= y:", x <= y);
+console.log("x == y:", x == y);
+console.log("x != y:", x != y);
+
+let a = true;
+let b = false;
+
+console.log("a AND b:", a && b);
+console.log("a OR b:", a || b);
+console.log("NOT a:", !a);
+
+let p = 10;
+
+p += 2;
+console.log("After +=:", p);
+
+p -= 1;
+console.log("After -=:", p);
+
+p *= 2;
+console.log("After *=:", p);
+
+p /= 2;
+console.log("After /=:", p);
+
+p %= 3;
+console.log("After %=:", p);
+
+// Temperature Check using switch statement
+
+switch (true) {
+  case temperature < 0:
+    console.log("It's freezing!");
+    break;
+
+  case temperature >= 0 && temperature <= 15:
+    console.log("It's cold.");
+    break;
+
+  case temperature >= 16 && temperature <= 25:
+    console.log("It's mild.");
+    break;
+
+  default:
+    console.log("It's warm.");
+}
+
+
+// Exercise 2: Divisibility Check
+
+let number = 8;
+
+if (number % 2 === 0 && number % 3 === 0) {
+  console.log("Divisible by both.");
+} else if (number % 2 === 0) {
+  console.log("Divisible by 2.");
+} else if (number % 3 === 0) {
+  console.log("Divisible by 3.");
+} else {
+  console.log("Not divisible by 2 or 3.");
+}
+
+
+// Exercise 3: For Loops
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+let total = 0;
+
+for (let i = 1; i <= 100; i++) {
+  total += i;
+}
+
+console.log("Sum:", total);
+
+const numbers1 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < numbers1.length; i++) {
+  console.log(numbers1[i]);
+}
+
+const numbers2 = [3, 7, 2, 5, 10, 6];
+
+let largest = numbers2[0];
+
+for (let i = 1; i < numbers2.length; i++) {
+  if (numbers2[i] > largest) {
+    largest = numbers2[i];
+  }
+}
+
+console.log("Largest Number:", largest);
+
+
+// Exercise 4: While Loops
+
+let count = 1;
+
+while (count <= 10) {
+  console.log(count);
+  count++;
+}
+
+let even = 1;
+
+while (even <= 20) {
+  if (even % 2 === 0) {
+    console.log(even);
+  }
+  even++;
+}
+
+
+// Exercise 5: Do While Loops
+
+let doCount = 1;
+
+do {
+  console.log(doCount);
+  doCount++;
+} while (doCount <= 10);
+
+
+// GitHub Username
+
+console.log("GitHub Username: appreciatenalo-gif");
